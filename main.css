@@ -1,0 +1,20 @@
+/* ----- NAVBAR ----- */
+.navbar {
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand span {
+  letter-spacing: 1px;
+}
+
+/* ----- CAROUSEL ----- */
+.carousel-item img {
+  height: 550px;
+  object-fit: cover;
+  filter: brightness(70%);
+  transition: transform 1.5s ease;
+}
+
+.carousel-item img:hover {
+  transform: scale(1.05);
+}
